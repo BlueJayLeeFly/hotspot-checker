@@ -8,6 +8,4 @@ body {
 	width: 100vw;
 	height: 100vh;
 	display: grid;
-	grid-template-columns: repeat(50, 1fr);
-	grid-template-rows: repeat(50, 1fr);
 }
