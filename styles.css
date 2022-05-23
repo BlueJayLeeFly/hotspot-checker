@@ -2,10 +2,21 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
 }
 
 .grid-container {
-	width: 100vw;
-	height: 100vh;
 	display: grid;
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.grid-container div {
+	border: 1px dashed rgba(0, 0, 0, 0.1);
 }

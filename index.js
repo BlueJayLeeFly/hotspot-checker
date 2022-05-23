@@ -13,9 +13,9 @@ const createSpots = (x, y) => {
 			if (counter > 0) {
 				counter -= 10;
 			}
-			spot.style.backgroundColor = `hsl(269, 100%, ${counter}%)`;
+			spot.style.backgroundColor = `hsla(269, 100%, ${counter}%, 0.7)`;
 		});
 	}
 };
 
-createSpots(100, 100);
+createSpots(50, 50);
